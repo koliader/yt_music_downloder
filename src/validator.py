@@ -1,7 +1,6 @@
 import os.path
 import sys
 from urllib.parse import urlparse
-
 import validators
 
 

@@ -1,4 +1,5 @@
 import os
+import re
 import requests
 from src.get_link import GetLink
 from src.parse_playlist import ParsePlaylist
@@ -28,9 +29,13 @@ def main():
         # Get download link
         res = link_disp.get_link(url)
         print(f'Saving "{res["title"]}" ...')
+
+        song_name = f'{res["title"]}.mp3'
+        song_name = re.sub(r'[\\/*?:"<>|]', "_", song_name)
+
         fil_path = os.path.join(
-            user_data["directory"].replace("/", "//"), f"{res['title']}.mp3"
-        )
+            user_data["directory"], song_name)
+
         # Get song
         song = requests.get(res["link"])
         # Save it
