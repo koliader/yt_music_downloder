@@ -3,7 +3,7 @@
 ### Follow this command to download packages
 
 ``` commandline
-pip install requests pytube urlparse validators
+pip install -r requirements.txt
 ```
 
 ### To run the program follow this command
