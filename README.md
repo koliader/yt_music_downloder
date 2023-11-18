@@ -1,6 +1,6 @@
 # yt_music_downloder
 
-### Follow this command
+### Follow this command to download packages
 
 ``` commandline
 pip install requests pytube urlparse validators
