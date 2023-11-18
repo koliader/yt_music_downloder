@@ -13,7 +13,7 @@ class Builder:
     # Build link res object
     @staticmethod
     def build_link_res(json_data):
-        link = json_data.json()["dlink"]
-        title = json_data.json()["title"]
+        link = json_data["dlink"]
+        title = json_data["title"]
 
         return {"link": link, "title": title}
