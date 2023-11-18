@@ -13,10 +13,14 @@ class Validator:
         self.validate_link()
         self.validate_directory()
 
+    # Validate link
     def validate_link(self):
         validation = validators.url(self.data["link"])
+        # Check is link
         if validation:
+            # Extract domain from link
             domain = urlparse(self.data["link"]).netloc
+            # Check is link from YouTube or YouTube Music
             if domain == "music.youtube.com" or domain == "www.youtube.com":
                 pass
             else:
@@ -27,6 +31,7 @@ class Validator:
             print("Link is not valid")
             sys.exit(0)
 
+    # Validate output directory
     def validate_directory(self):
         is_exists = os.path.exists(self.data["directory"])
         if not is_exists:

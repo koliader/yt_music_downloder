@@ -1,4 +1,5 @@
 class UserDataDispatcher:
+    # Get data from user
     @staticmethod
     def get_user_data():
         playlist_link = input("Enter playlist link to save: ")

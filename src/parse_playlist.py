@@ -11,6 +11,7 @@ class ParsePlaylist:
     def parse(self):
         return self.get_playlist()
 
+    # Getting a link to songs from a playlist
     def get_playlist(self):
         urls = []
         playlist_urls = Playlist(self.link)
