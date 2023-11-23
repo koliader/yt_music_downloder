@@ -4,7 +4,7 @@ from .dto.song_dto import SongDto
 from .saver import Saver
 
 
-class ParsePlaylist:
+class PlaylistParser:
     def __init__(self, playlist_link):
         self.playlist_link = playlist_link
         self.headers = {
@@ -28,7 +28,7 @@ class ParsePlaylist:
             urls.append(url)
         return urls
 
-    def __get_key(self, url):
+    def __get_link_payload(self, url):
         key_payload = {"k_query": url, "k_page": "home", "hl": "en", "q_auto": 1}
         response = requests.post(
             "https://www.y2mate.com/mates/analyzeV2/ajax",
@@ -43,11 +43,11 @@ class ParsePlaylist:
         }
         return link_payload
 
-    def __get_song_data(self, url):
+    def __get_song_dto(self, url):
         download_link_res = requests.post(
             "https://www.y2mate.com/mates/convertV2/index",
             headers=self.headers,
-            data=self.__get_key(url),
+            data=self.__get_link_payload(url),
         )
         json_data = download_link_res.json()
         print(f"Link req status: {download_link_res.status_code}")

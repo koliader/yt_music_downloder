@@ -1,4 +1,4 @@
-from src.parse_playlist import ParsePlaylist
+from src.playlist_parser import PlaylistParser
 from src.argument_parser import ArgumentParer
 from src.link_validator import LinkValidator
 from src.path_validator import PathValidator
@@ -19,7 +19,7 @@ def main():
     path_validator.validate()
 
     # Create link parser from playlist
-    parser = ParsePlaylist(user_data_dto.link)
+    parser = PlaylistParser(user_data_dto.link)
     songs = parser.parse()
 
     # Save songs
