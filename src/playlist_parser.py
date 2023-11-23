@@ -15,7 +15,7 @@ class PlaylistParser:
     def parse(self):
         playlist_links = self.__get_playlist()
         for link in playlist_links:
-            song_dto = self.__get_song_data(link)
+            song_dto = self.__get_song_dto(link)
             self.songs.append(song_dto)
 
         return self.songs
