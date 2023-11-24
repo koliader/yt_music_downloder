@@ -3,6 +3,7 @@ from src.argument_parser import ArgumentParer
 from src.link_validator import LinkValidator
 from src.path_validator import PathValidator
 from src.saver import Saver
+from src.path_manager import PathManager
 
 
 def main():
@@ -16,7 +17,12 @@ def main():
 
     # Validate path
     path_validator = PathValidator(user_data_dto.path)
-    path_validator.validate()
+    folder_is_exists = path_validator.validate()
+
+    # Create path or not
+    path_manager = PathManager(user_data_dto.path)
+    if not folder_is_exists:
+        path_manager.create_by_path()
 
     # Create link parser from playlist
     parser = PlaylistParser(user_data_dto.link)
