@@ -1,7 +1,7 @@
 from src.playlist_parser import PlaylistParser
 from src.argument_parser import ArgumentParer
-from src.link_validator import LinkValidator
-from src.path_validator import PathValidator
+from src.validators.link_validator import LinkValidator
+from src.validators.path_validator import PathValidator
 from src.saver import Saver
 from src.path_manager import PathManager
 

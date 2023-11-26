@@ -1,5 +1,4 @@
 from .playlist_parser import *
-from .link_validator import LinkValidator
-from .path_validator import PathValidator
+from src.validators.link_validator import LinkValidator
 from .saver import Saver
 from .path_manager import PathManager
