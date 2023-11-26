@@ -9,3 +9,5 @@ class PathValidator:
         is_exists = os.path.exists(self.path)
         if not is_exists:
             return False
+        else:
+            return True
