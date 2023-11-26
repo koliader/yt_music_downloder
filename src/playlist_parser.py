@@ -1,7 +1,6 @@
 from pytube import Playlist
 import requests
 from .dto.song_dto import SongDto
-from .saver import Saver
 
 
 class PlaylistParser:
