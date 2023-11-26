@@ -1,5 +1,5 @@
 import argparse
-from .dto.user_data_dto import UserDataDto
+from src.dto.user_data_dto import UserDataDto
 
 
 class ArgumentParer:

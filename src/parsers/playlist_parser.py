@@ -1,6 +1,6 @@
 from pytube import Playlist
 import requests
-from .dto.song_dto import SongDto
+from src.dto.song_dto import SongDto
 
 
 class PlaylistParser:

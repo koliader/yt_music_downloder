@@ -1,5 +1,5 @@
-from src.playlist_parser import PlaylistParser
-from src.argument_parser import ArgumentParer
+from src.parsers.playlist_parser import PlaylistParser
+from src.parsers.argument_parser import ArgumentParer
 from src.validators.link_validator import LinkValidator
 from src.validators.path_validator import PathValidator
 from src.saver import Saver
