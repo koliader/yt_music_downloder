@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e05a59-2ddd-41ca-9c15-0e5288ab5171" name="Changes" comment="Change .gitignore" />
+    <list default="true" id="81e05a59-2ddd-41ca-9c15-0e5288ab5171" name="Changes" comment="Change .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saver.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/saver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validator/link_validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/link_validator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
