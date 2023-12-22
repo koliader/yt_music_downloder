@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81e05a59-2ddd-41ca-9c15-0e5288ab5171" name="Changes" comment="Change .gitignore" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="3vbmir2m" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YLsIEXcLxqgPS83agep5jERNew" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;validator__improvements&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/kolia_repos/py/yt_music_downloder&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kolia_repos\py\yt_music_downloder\src\parsers" />
+      <recent name="D:\kolia_repos\py\yt_music_downloder\src\validators" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Args" type="PythonConfigurationType" factoryName="Python">
+      <module name="yt_music_downloder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (yt_music_downloder)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-l &quot;https://music.youtube.com/playlist?list=PLqcguvgWON_SJIOq8UzLMIScF1ITx2-Oj&amp;si=KgXaasscUAh0CCWe&quot; -p D:\Mykola\parsed_music" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81e05a59-2ddd-41ca-9c15-0e5288ab5171" name="Changes" comment="" />
+      <created>1700316113416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700316113416</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First version">
+      <option name="closed" value="true" />
+      <created>1700316256772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700316256772</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed version">
+      <option name="closed" value="true" />
+      <created>1700463373016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700463373016</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix requirements">
+      <option name="closed" value="true" />
+      <created>1700463427855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700463427855</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix code">
+      <option name="closed" value="true" />
+      <created>1700721118039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700721118039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix bag">
+      <option name="closed" value="true" />
+      <created>1700721466317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700721466317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix code">
+      <option name="closed" value="true" />
+      <created>1700834783483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700834783483</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add logs to PathManager">
+      <option name="closed" value="true" />
+      <created>1700834872596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700834872596</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix bag">
+      <option name="closed" value="true" />
+      <created>1701021990823</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701021990823</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Moved validators to another directory">
+      <option name="closed" value="true" />
+      <created>1701022696000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701022696000</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Remove unused import">
+      <option name="closed" value="true" />
+      <created>1701022770579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701022770579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Move parsers to another directory">
+      <option name="closed" value="true" />
+      <created>1701022995796</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701022995796</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add .gitignore">
+      <option name="closed" value="true" />
+      <created>1701023403227</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701023403227</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Change README.md">
+      <option name="closed" value="true" />
+      <created>1701023939168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701023939168</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Change .gitignore">
+      <option name="closed" value="true" />
+      <created>1701024617402</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701024617402</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Change .gitignore">
+      <option name="closed" value="true" />
+      <created>1701024716813</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701024716813</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First version" />
+    <MESSAGE value="Fixed version" />
+    <MESSAGE value="Fix requirements" />
+    <MESSAGE value="Fix code" />
+    <MESSAGE value="Add logs to PathManager" />
+    <MESSAGE value="Fix bag" />
+    <MESSAGE value="Moved validators to another directory" />
+    <MESSAGE value="Remove unused import" />
+    <MESSAGE value="Move parsers to another directory" />
+    <MESSAGE value="Add .gitignore" />
+    <MESSAGE value="Change README.md" />
+    <MESSAGE value="Change .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change .gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties exception="BaseException" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
