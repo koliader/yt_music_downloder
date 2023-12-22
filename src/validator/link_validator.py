@@ -18,8 +18,9 @@ class LinkValidator:
 
     def check_platform(self):
         domain = urlparse(self.link).netloc
+        domain = domain.replace("www.", "")
         # Check is link from YouTube or YouTube Music
-        if domain == "music.youtube.com" or domain == "www.youtube.com":
+        if domain == "music.youtube.com" or domain == "youtube.com":
             pass
         else:
             print("Link is not valid")

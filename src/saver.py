@@ -13,11 +13,11 @@ class Saver:
         for song in self.songs:
             print(f'Saving "{song.title}" ...')
             # Normalize path
-            fil_path = self.__normalize_path(song)
+            file_path = self.__normalize_path(song)
 
             # Save song
             song_res = requests.get(song.download_link)
-            with open(fil_path, "wb") as f:
+            with open(file_path, "wb") as f:
                 f.write(song_res.content)
 
             self.downloaded += 1
