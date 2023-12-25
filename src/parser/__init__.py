@@ -1,2 +1,2 @@
-from .playlist_parser import PlaylistParser
+from .yt_playlist_parser import YtPlaylistParser
 from .argument_parser import ArgumentParer

@@ -17,4 +17,4 @@ class ArgumentParer:
 
     def __save_args(self):
         args = self.parser.parse_args()
-        return UserDataDto(link=args.link, path=args.path)
+        return UserDataDto(link=args.link, path=args.path, )

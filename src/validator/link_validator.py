@@ -20,7 +20,7 @@ class LinkValidator:
         domain = urlparse(self.link).netloc
         domain = domain.replace("www.", "")
         # Check is link from YouTube or YouTube Music
-        if domain == "music.youtube.com" or domain == "youtube.com":
+        if domain == "music.youtube.com" or domain == "youtube.com" or domain == "open.spotify.com":
             pass
         else:
             print("Link is not valid")

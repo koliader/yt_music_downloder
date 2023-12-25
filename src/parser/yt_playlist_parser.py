@@ -1,22 +1,24 @@
 from pytube import Playlist
 import requests
 from src.dto.song_dto import SongDto
+from src.interface import PlaylistParserInterface
 
 
-class PlaylistParser:
-    def __init__(self, playlist_link):
-        self.playlist_link = playlist_link
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-        }
+class YtPlaylistParser(PlaylistParserInterface):
+    def __init__(self, playlist_link=None, playlist_links=None):
+        super().__init__(playlist_link, playlist_links)
         self.songs = []
+        self.playlist_links = playlist_links
 
     def parse(self):
-        playlist_links = self.__get_playlist()
+        playlist_links = self.__get_playlist() if self.playlist_link else self.playlist_links
+        completed = 0
         for link in playlist_links:
-            song_dto = self.__get_song_dto(link)
+            song_dto = self.get_song_dto(link)
             self.songs.append(song_dto)
-
+            completed += 1
+            print(f"Completed {completed}/{len(playlist_links)}")
+            print()
         return self.songs
 
     # Getting a link to songs from a playlist
@@ -42,7 +44,7 @@ class PlaylistParser:
         }
         return link_payload
 
-    def __get_song_dto(self, url):
+    def get_song_dto(self, url):
         download_link_res = requests.post(
             "https://www.y2mate.com/mates/convertV2/index",
             headers=self.headers,
@@ -52,5 +54,5 @@ class PlaylistParser:
         print(f"Link req status: {download_link_res.status_code}")
         print(f"Status: {download_link_res.json()['status']}")
         print(f"Song: {json_data['title']}")
-        print()
+
         return SongDto(download_link=json_data["dlink"], title=json_data["title"])
